@@ -4,6 +4,15 @@ import * as Message from './../constants/Message';
 
 class CartItem extends Component {
 
+    componentDidMount() {
+      console.log('cart item did mount');
+    }
+
+    // componentDidUpdate(prevProps) {
+    //   console.log('prevProps', prevProps.item);
+    //   console.log('this.props', this.props.item);
+    // }
+
     render(){
         var {item} = this.props;
         var {quantity} = item;
