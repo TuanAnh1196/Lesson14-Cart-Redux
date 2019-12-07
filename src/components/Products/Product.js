@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import * as Message from './../constants/Message';
+import * as Message from './../../constants/Message';
 
 class Product extends Component {
     render() {
         var { product } = this.props;
 
         return (
-            <div className="col-lg-4 col-md-6 mb-r">
+            <div className="col-lg-3 col-md-3 mb-r">
                 <div className="card text-center card-cascade narrower">
                     <div className="view overlay hm-white-slight z-depth-1">
                         <img src={product.image}
@@ -16,19 +16,21 @@ class Product extends Component {
                         </a>
                     </div>
                     <div className="card-body">
-                        <h4 className="card-title">
-                            <strong>
-                                <a>{product.name}</a>
-                            </strong>
-                        </h4>
-                        <ul className="rating">
-                            <li>
-                                {this.showRatings(product.rating)}
-                            </li>
-                        </ul>
-                        <p className="card-text">
-                            {product.desciption}
-                        </p>
+                        <div className="card-body-content">
+                            <h4 className="card-title">
+                                <strong>
+                                    <a>{product.name}</a>
+                                </strong>
+                            </h4>
+                            <ul className="rating">
+                                <li>
+                                    {this.showRatings(product.rating)}
+                                </li>
+                            </ul>
+                            <p className="card-text">
+                                {product.description}
+                            </p>
+                        </div>
                         <div className="card-footer">
                             <span className="left">{product.price}$</span>
                             <span className="right">

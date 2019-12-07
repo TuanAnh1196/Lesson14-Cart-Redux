@@ -1,1 +1,35 @@
 /* YOUR CUSTOM STYLES */
+.card{
+    max-height: 450px;
+
+}
+.card .view {
+    min-height: 200px;
+}
+.card .view img {
+    height: 200px;
+}
+.card-body {
+    min-height: 225px; 
+    
+}
+.card-body h4{
+    margin: 0;
+}
+.card .card-footer{
+    overflow: hidden;
+}
+.card .card-footer .right a{
+    margin-top: 0;
+}
+.card .card-body-content{
+    height: 140px;
+}
+
+.card-footer .content-promotion i{
+    color: red;
+}
+
+.section-heading{
+    font-weight: bold;
+}
