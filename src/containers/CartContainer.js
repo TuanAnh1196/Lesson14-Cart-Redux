@@ -5,7 +5,7 @@ import Cart from './../components/Cart/Cart';
 import CartItem from './../components/Cart/CartItem';
 import CartResult from './../components/Cart/CartResult';
 import * as Message from './../constants/Message';
-import { actDeleteProductInCart, actChangeMessage, actUpdateProductInCart } from '../actions';
+import { actDeleteProductInCart, actChangeMessage, actUpdateProductInCart } from '../redux/reducers/cart/actions';
 
 class CartContainer extends Component {
     render() {

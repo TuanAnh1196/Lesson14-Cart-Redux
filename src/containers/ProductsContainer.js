@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import Product from '../components/Products/Product';
 import Products from '../components/Products/Products';
 import PropTypes from 'prop-types';
-import {actAddToCart, actChangeMessage} from './../actions/index';
+import {actAddToCart, actChangeMessage} from './../redux/reducers/cart/actions';
 import MessageContainer from './MessageContainer';
 
 
