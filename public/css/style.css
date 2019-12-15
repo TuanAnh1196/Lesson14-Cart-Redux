@@ -1,4 +1,7 @@
 /* YOUR CUSTOM STYLES */
+a{
+    text-decoration: none;
+}
 .card{
     max-height: 450px;
 
@@ -32,4 +35,68 @@
 
 .section-heading{
     font-weight: bold;
+}
+
+.now-detail-restaurant{
+    box-sizing: border-box;
+}
+.now-detail-restaurant .images-shop img{
+    width: 440px;
+    height: 280px;
+}
+.detail-restaurant-info{
+}
+.detail-restaurant-info .info-content{
+    margin-left: 40px;
+}
+
+.detail-restaurant-info .breadcrumb{
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    overflow: hidden;
+    margin-top: -2px;
+    background-color: white;
+}
+.detail-restaurant-info .breadcrumb-item{
+    float: left;
+    position: relative;
+    padding-right: 4px;
+}
+.detail-restaurant-info .breadcrumb-link {
+    font-size: 13px;
+}
+#color-a{
+    color: #0288d1;
+} 
+#color-a:hover{
+    color: royalblue;
+} 
+.star .fa {
+    color: #ffc107;
+}
+.detail-restaurant-info .number-rating{
+    background-color: #ffc107;
+    padding: 0 5px;
+    border-radius: 4px;
+    color: #fff;
+    margin: 0 5px;
+}
+
+.detail-restaurant-info .opentime-status{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: inline-block;
+}
+.detail-restaurant-info .opentime-status{
+
+}
+.detail-restaurant-info .opentime-status .stt{
+    width: inherit;
+    height: inherit;
+    vertical-align: middle;
+    display: inline-block;
+    background-color: transparent;
+    color: #329900;
 }

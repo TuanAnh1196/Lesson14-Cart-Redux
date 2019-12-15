@@ -29,6 +29,11 @@ export default Object.freeze({
             index: {
                 path: '/cart'
             }
+        },
+        shopdetail: {
+            index: {
+                path: '/shop-detail'
+            }
         }
     }
 });
