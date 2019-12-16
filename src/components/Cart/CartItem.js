@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import * as Message from './../constants/Message';
+import * as Message from './../../constants/Message';
 
 
 class CartItem extends Component {

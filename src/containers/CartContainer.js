@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import Cart from './../components/Cart';
-import CartItem from './../components/CartItem';
-import CartResult from './../components/CartResult';
+import Cart from './../components/Cart/Cart';
+import CartItem from './../components/Cart/CartItem';
+import CartResult from './../components/Cart/CartResult';
 import * as Message from './../constants/Message';
-import { actDeleteProductInCart, actChangeMessage, actUpdateProductInCart } from '../actions';
+import { actDeleteProductInCart, actChangeMessage, actUpdateProductInCart } from '../redux/reducers/cart/actions';
 
 class CartContainer extends Component {
     render() {

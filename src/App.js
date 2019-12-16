@@ -1,11 +1,10 @@
 import React,{Component} from 'react';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Message from './components/Message';
-import ProductsContainer from './containers/ProductsContainer';
-import CartContainer from './containers/CartContainer';
-import MessageContainer from './containers/MessageContainer';
+import Header from './components/Layout/Header';
+import Footer from './components/Layout/Footer';
+import {BrowserRouter} from 'react-router-dom';
 
+
+import Route from './routes';
 
 class App extends Component {
     render(){
@@ -14,12 +13,13 @@ class App extends Component {
                 <Header />
                 <main id="mainContainer">
                     <div className="container">
-                        {/* <!-- Products --> */}
-                        <ProductsContainer />
-                        {/* <!-- Message --> */}
+                        <BrowserRouter>
+                                <Route />
+                        </BrowserRouter>
+                        
+                        {/* <ProductsContainer />
                         <MessageContainer />
-                        {/* <!-- Cart --> */}
-                        <CartContainer />
+                        <CartContainer /> */}
                     </div>
                 </main>
                 {/* <!-- Footer --> */}

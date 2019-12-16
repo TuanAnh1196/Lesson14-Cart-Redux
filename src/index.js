@@ -4,7 +4,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 //tao store
 import { createStore } from 'redux';
-import appReducer from './reducers/index';
+import appReducer from './redux/reducers/index';
 import { Provider } from 'react-redux';
 
 const store = createStore(
@@ -15,6 +15,7 @@ ReactDOM.render(
     <Provider store={store}>
         <App />
     </Provider>
+    
     , 
     document.getElementById('root'));
 
