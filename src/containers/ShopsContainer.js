@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import Shops from './../components/Shops/Shops';
 import ShopItem from './../components/Shops/ShopItem';
 class ShopsContainer extends Component {

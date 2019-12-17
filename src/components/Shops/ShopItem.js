@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-
 class ShopItem extends Component {
     render() {
         var { shop } = this.props;
-
         return (
             <div className="col-lg-3 col-md-3 mb-r">
                 <div className="card text-center card-cascade narrower">
@@ -33,7 +31,7 @@ class ShopItem extends Component {
                         </div>
                         <div className="card-footer">
                             <a href="#">
-                                <p class="content-promotion"><i class="fa fa-tags"></i> Giảm hết 20%</p>
+                                <p className="content-promotion"><i class="fa fa-tags"></i> Giảm hết 20%</p>
                             </a>
                         </div>
                     </div>

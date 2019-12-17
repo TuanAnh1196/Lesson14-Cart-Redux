@@ -6,6 +6,8 @@ import NotFound from './components/sites/NotFound';
 import CartContainer from './containers/CartContainer';
 import ShopsContainer from './containers/ShopsContainer';
 import ShopDetailContainer from './containers/ShopDetailContainer';
+
+import ShopListPage from './pages/shop.list.page'
 class RouteBackEnd extends Component {
     render() {
         return (
@@ -16,6 +18,8 @@ class RouteBackEnd extends Component {
                 <Route exact path={RouteConst.frontEnd.cart.index.path} component={CartContainer} />
                 <Route exact path={RouteConst.frontEnd.shops.index.path} component={ShopsContainer} />
                 <Route exact path={RouteConst.frontEnd.shopdetail.index.path} component={ShopDetailContainer} />
+                {/* <Route exact path={RouteConst.frontEnd.home.index.path} component={ShopsContainer} /> */}
+                <Route exact path={RouteConst.frontEnd.home.index.path} component={ShopListPage} />
                 <Route component={NotFound} />
             </Switch>
         );

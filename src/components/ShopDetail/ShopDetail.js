@@ -1,6 +1,14 @@
 import React, { Component } from 'react';
+import CommentItem from "../Common/comment.item"
+import CommentInput from "../Common/comment.input"
 
 class ShopDetail extends Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            commentItem: {}
+        }
+    }
     render() {
         return (
             <div className="now-detail-restaurant clearfix">
@@ -61,7 +69,26 @@ class ShopDetail extends Component {
                             </div>
                         </div>
                     </div>
-                    
+                    <div><br /></div>
+                    <div className="row">
+                        <div className="col"></div>
+                        <div className="col">
+                            {/* list comment */}
+                            <CommentItem 
+                            name="Thành"
+                            comment="abc"
+                            day="18-08-1992"
+                            />
+                        </div>
+                        <div className="col"></div>
+                    </div>
+                    <div className="row">
+                        <div className="col"></div>
+                        <div className="col">
+                        < CommentInput />
+                        </div>
+                        <div className="col"></div>
+                    </div>
                 </div>
                 
             </div>

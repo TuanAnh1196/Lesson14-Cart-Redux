@@ -6,10 +6,10 @@ class Shops extends Component {
                 <h1 className="section-heading">Danh Sách Shop</h1>
                 <div className="row">
                     {this.props.children}
+                    {console.log("children", this.props.children)}
                 </div>
             </section>
         );
     }
 }
-
 export default (Shops);
