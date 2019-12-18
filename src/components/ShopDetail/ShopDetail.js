@@ -69,6 +69,129 @@ class ShopDetail extends Component {
                             </div>
                         </div>
                     </div>
+
+                    <div className="container restaurant">
+                        
+                        <div className="row">
+                            <div className="col-12 pd-lr0">
+                                <div className="col-9 pd-lr0">
+                                    <div class="menu-restaurant-tab">
+                                        <div class="item active">Thực đơn</div>
+                                    </div>
+                                    <div className="menu-restaurant-content-tab">
+                                        <div className="menu-restaurant-category pd-lr0">
+                                            <div className="list-category ">
+                                                <div class="item">
+                                                    <a id="705668" title="Arabica coffee" class="item-link active" href="#title2">Arabica coffee</a>
+                                                </div>
+                                                <div class="item">
+                                                    <a id="705668" title="Arabica coffee" class="item-link active">Arabica coffee</a>
+                                                </div>
+                                                <div class="item">
+                                                    <a id="705668" title="Arabica coffee" class="item-link active" href="#title2">Arabica coffee</a>
+                                                </div>
+                                                <div class="item">
+                                                    <a id="705668" title="Arabica coffee" class="item-link active" href="#title2">Arabica coffee</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="menu-restaurant-list pd-lr0">
+                                            <div className="menu-group">
+                                                <div className="title-menu">
+                                                    <h4>ARABICA COFFEE</h4>
+                                                </div>
+                                            </div>
+                                            <hr />
+                                            <div className="item-restaurant-row">
+                                                <div className="row">
+                                                    <div className="col-auto item-restaurant-img">
+                                                        <img src="https://images.foody.vn/res/g15/149154/s120x120/37305c70-286b-4065-9445-88a398875177.jpg" width="60px" height="60px0" />
+                                                    </div>
+                                                    <div className="col item-restaurant-info">
+                                                        <h5><strong>Arabica cappuccino</strong></h5>
+                                                    </div>
+                                                    <div className="col-auto item-restaurant-more">
+                                                        <div>
+                                                            <span className="btn-adding">+</span>
+                                                        </div>
+                                                        <div className="col-auto product-price">
+                                                            <span className="current-price">50.000$</span>
+                                                        </div>
+                                                    </div>  
+                                                </div>
+                                                <hr />
+                                                <div className="row">
+                                                    <div className="col-auto item-restaurant-img">
+                                                        <img src="https://images.foody.vn/res/g15/149154/s120x120/37305c70-286b-4065-9445-88a398875177.jpg" width="60px" height="60px0" />
+                                                    </div>
+                                                    <div className="col item-restaurant-info">
+                                                        <h5><strong>Arabica cappuccino</strong></h5>
+                                                    </div>
+                                                    <div className="col-auto item-restaurant-more">
+                                                        <div>
+                                                            <span className="btn-adding">+</span>
+                                                        </div>
+                                                        <div className="col-auto product-price">
+                                                            <span className="current-price">50.000$</span>
+                                                        </div>
+                                                    </div>  
+                                                </div>
+                                            </div>
+                                            {/* /// */}
+                                            <div id="title2"></div>
+                                            <div className="menu-group">
+                                                <div className="title-menu" >
+                                                    <h4>ARABICA COFFEE</h4>
+                                                </div>
+                                            </div>
+                                            <hr />
+                                            <div className="item-restaurant-row">
+                                                <div className="row">
+                                                    <div className="col-auto item-restaurant-img">
+                                                        <img src="https://images.foody.vn/res/g15/149154/s120x120/37305c70-286b-4065-9445-88a398875177.jpg" width="60px" height="60px0" />
+                                                    </div>
+                                                    <div className="col item-restaurant-info">
+                                                        <h5><strong>Arabica cappuccino</strong></h5>
+                                                    </div>
+                                                    <div className="col-auto item-restaurant-more">
+                                                        <div>
+                                                            <span className="btn-adding">+</span>
+                                                        </div>
+                                                        <div className="col-auto product-price">
+                                                            <span className="current-price">50.000$</span>
+                                                        </div>
+                                                    </div>  
+                                                </div>
+                                                <hr />
+                                                <div className="row">
+                                                    <div className="col-auto item-restaurant-img">
+                                                        <img src="https://images.foody.vn/res/g15/149154/s120x120/37305c70-286b-4065-9445-88a398875177.jpg" width="60px" height="60px0" />
+                                                    </div>
+                                                    <div className="col item-restaurant-info">
+                                                        <h5><strong>Arabica cappuccino</strong></h5>
+                                                    </div>
+                                                    <div className="col-auto item-restaurant-more">
+                                                        <div>
+                                                            <span className="btn-adding">+</span>
+                                                        </div>
+                                                        <div className="col-auto product-price">
+                                                            <span className="current-price">50.000$</span>
+                                                        </div>
+                                                    </div>  
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
                     <div><br /></div>
                     <div className="row">
                         <div className="col"></div>
